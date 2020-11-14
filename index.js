@@ -48,8 +48,13 @@ alert("Bien echo ")
 //
  Texturizar_la_leche:function(){
 //LLENAR LA JARRA CON LECHE PARA TEXTURIZAR LA Texturizar_la_leche
-
 },
+
+fun_vapor:function(){
+  /*EL TUBO DE VALOR DEBE ESTAR EN LA POSICION DE RELOJ 12 Y 3 Y 1 DEDO DE ANCHO DESDE EL BORDE */
+
+}
+
 }
 let fil = Object.entries(filtros);
 console.log(fil);
@@ -62,10 +67,10 @@ let Cafetera = {
  tanque_de_agua:tanque_de_agua,
  filtros:filtros,
 
-Material:	"Acero inoxidable",
-Marca:	"Oster®",
-Color:	"Brusched Steel",
-Capacidad:	"1 Tazas",
+Material:"Acero inoxidable",
+Marca:"Oster®",
+Color:"Brusched Steel",
+Capacidad:"1 Tazas",
 Comando_de_voz: 	"Pantalla táctil"
 
 }
